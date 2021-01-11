@@ -1,0 +1,32 @@
+body{
+    background-color: #8E5232;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6,1fr);
+    height: 100vh;
+}
+
+body p{
+    font-family: 'Inconsolata', monospace
+}
+
+
+.main-bg{
+    background-color: #99B051;
+    grid-column: 3/11;
+    grid-row: 2/6;
+}
+
+
+header{
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);    
+}
+
+
+header p{
+    color: #000000;
+    grid-column: 6/7;
+}
+
