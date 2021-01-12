@@ -69,6 +69,18 @@ header p{
   animation: spoky 1s steps(11) infinite;
 }
 
+
+.pika-sprite{
+    position :absolute; 
+    top : 45%;
+    left : 25%;
+    width : calc(1500x/4);
+    height: 375px;
+    /* background:url(/img/spritesheetPikaScaled.png);
+    animation: pika 8s steps(4) linear; *
+
+}
+
 /* Animations */
 
 @keyframes spoky{
@@ -79,3 +91,12 @@ to{
     background-position: 1000px;
 }
 }
+
+/* @keyframes pika{
+from{
+    background-position: 0;
+}
+to{
+    background-position: 1500px;
+}
+} */
