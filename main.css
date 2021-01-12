@@ -42,14 +42,33 @@ header p{
     font-weight: bold;
 }
 
+aside{
+    font-size: 22px;
+    font-weight: 500;
+    grid-column:3/9;
+    grid-row: 3/6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2em;
+}
+
+aside span:first-of-type{
+    font-weight:bold;
+}
+
+aside span #hover-click:hover{
+    color : yellow;
+
+}
+
 #main_gandalf{
 
     grid-column: 1/9;
 }
 
-
-
 #main_gandalf p:first-child{
+    padding-top: 12px;
     font-size: 50px;
     font-weight: 400;
     display: flex;
@@ -58,14 +77,14 @@ header p{
 }
 
 
-.creepy-ghost{
+.pacghost{
   position:absolute;
-  top: 25%;
+  top: 30%;
   left: 45%;
-  width: calc(1000px/11);
-  height: 133px;
-  background:url(/img/ghostSpritesheetScaled.png);
-  animation: spoky 1s steps(11) infinite;
+  width: calc(608px/4);
+  height: 152px;
+  background:url(/img/spritesheetPacghost.png);
+  animation: pacghost 4s steps(4) infinite;
 }
 
 #main_pika{
@@ -77,23 +96,24 @@ header p{
 .pika-sprite{
     position: relative;
     top: 15%;
-    left: 15%;
+    left: 5%;
     width : calc(776px /4);
     height: 194px;
     background:url(/img/spritesheetPika.png);
     animation: pika 8s steps(4) infinite; 
-
 }
+
+
 
 /* Animations */
 
-@keyframes spoky {
+@keyframes pacghost {
 
 from{
     background-position: 0;
 }
 to{
-    background-position: 1000px;
+    background-position: 608px;
 }
 }
 
