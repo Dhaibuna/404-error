@@ -57,10 +57,26 @@ aside span:first-of-type{
     font-weight:bold;
 }
 
-aside span #hover-click:hover{
-    color : yellow;
 
+aside a{
+    cursor:crosshair;
+    text-decoration-line: none;
+    color: black;
+    
 }
+
+aside a:hover{
+    animation-name: hover-link;
+    animation-duration: 5s ;
+    animation-iteration-count: infinite;
+    text-decoration: underline;
+    text-decoration-color: yellow ;
+}
+
+a{
+    cursor:crosshair;
+}
+
 
 #main_gandalf{
 
@@ -126,3 +142,11 @@ to{
     background-position: 776px;
 }
 } 
+
+@keyframes hover-link {
+
+    0%   {text-decoration-color: yellow;}
+    25%  {text-decoration-color: #56E0CC;}
+    50%  {text-decoration-color: #FBB451;}
+    100% {text-decoration-color :#FD0000;}
+  }
