@@ -29,7 +29,7 @@ body p{
 header{
     grid-column: 1/13;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);    
+    grid-template-columns: repeat(12, 1fr);
 }
 
 
@@ -56,10 +56,9 @@ header p{
     justify-content: center;
     align-items: center;
 }
-    
+
 
 .creepy-ghost{
-  /* background-color : red; */
   position:absolute;
   top: 25%;
   left: 45%;
@@ -69,21 +68,27 @@ header p{
   animation: spoky 1s steps(11) infinite;
 }
 
+#main_pika{
+    grid-column: 1/4;
+    grid-row: 3/6;
+    
+}
 
 .pika-sprite{
-    position :absolute; 
-    top : 45%;
-    left : 25%;
-    width : calc(1500x/4);
-    height: 375px;
-    /* background:url(/img/spritesheetPikaScaled.png);
-    animation: pika 8s steps(4) linear; *
+    position: relative;
+    top: 15%;
+    left: 15%;
+    width : calc(776px /4);
+    height: 194px;
+    background:url(/img/spritesheetPika.png);
+    animation: pika 8s steps(4) infinite; 
 
 }
 
 /* Animations */
 
-@keyframes spoky{
+@keyframes spoky {
+
 from{
     background-position: 0;
 }
@@ -92,11 +97,12 @@ to{
 }
 }
 
-/* @keyframes pika{
+@keyframes pika{
 from{
     background-position: 0;
 }
+
 to{
-    background-position: 1500px;
+    background-position: 776px;
 }
-} */
+} 
