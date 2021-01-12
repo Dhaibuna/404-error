@@ -34,7 +34,6 @@ header{
 
 
 header p{
-    color: #000000;
     grid-column: 3/11;
     display: flex;
     justify-content: center;
@@ -59,3 +58,24 @@ header p{
 }
     
 
+.creepy-ghost{
+  /* background-color : red; */
+  position:absolute;
+  top: 25%;
+  left: 45%;
+  width: calc(1000px/11);
+  height: 133px;
+  background:url(/img/ghostSpritesheetScaled.png);
+  animation: spoky 1s steps(11) infinite;
+}
+
+/* Animations */
+
+@keyframes spoky{
+from{
+    background-position: 0;
+}
+to{
+    background-position: 1000px;
+}
+}
