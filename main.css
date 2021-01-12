@@ -60,7 +60,7 @@ aside span:first-of-type{
 
 aside a{
     cursor:crosshair;
-    text-decoration-line: none;
+    text-decoration: underline;
     color: black;
     
 }
@@ -144,7 +144,6 @@ to{
 } 
 
 @keyframes hover-link {
-
     0%   {text-decoration-color: yellow;}
     25%  {text-decoration-color: #56E0CC;}
     50%  {text-decoration-color: #FBB451;}
