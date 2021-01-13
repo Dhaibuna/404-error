@@ -1,8 +1,8 @@
 # 404-page
 
-This is a 404 page
+**[This is a 404 page](https://dhaibuna.github.io/404-error/)**
 
-Link coming soon ...
+
 
 ## Ressources used to create this page : 
 
@@ -11,12 +11,11 @@ Link coming soon ...
 Allows you to create little pixel images, that you can choose to save into **.gif** or **png** in order to create sprite, that you will animate as I did. 
 
 
-- [Pour faire tes spritesheets une fois les images réalisées](https://www.codeandweb.com/free-sprite-sheet-packer)
+- To do spritessheets once you've made up your **.png** :  [A generator](https://www.codeandweb.com/free-sprite-sheet-packer)
 
-- [And the last but not least j'ai nommé : W3schools](https://www.w3schools.com/)  
+- And the last but not least : [W3schools](https://www.w3schools.com/)  
 
 No, I don't know how to create by heart animations like this one, yet very simple : 
-
 
 
 ``` 
