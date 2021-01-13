@@ -99,7 +99,7 @@ a{
   left: 45%;
   width: calc(608px/4);
   height: 152px;
-  background:url(/img/spritesheetPacghost.png);
+  background:url(./img/spritesheetPacghost.png);
   animation: pacghost 4s steps(4) infinite;
 }
 
@@ -115,7 +115,7 @@ a{
     left: 5%;
     width : calc(776px /4);
     height: 194px;
-    background:url(/img/spritesheetPika.png);
+    background:url(./img/spritesheetPika.png);
     animation: pika 8s steps(4) infinite; 
 }
 
